@@ -40,7 +40,7 @@ namespace APISource.Web
 
             app.UseIdentityServerAuthentication(new IdentityServerAuthenticationOptions
             {
-                Authority = "http://localhost:5000",
+                Authority = "http://localhost:5001",
                 RequireHttpsMetadata = false,
 
                 ApiName = "api1"
